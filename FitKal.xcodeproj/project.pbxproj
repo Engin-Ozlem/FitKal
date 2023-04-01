@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */; };
 		D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E729D83ED000EEB6E4 /* AppDelegate.swift */; };
 		D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */; };
-		D08331EC29D83ED000EEB6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331EB29D83ED000EEB6E4 /* ViewController.swift */; };
+		D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331EB29D83ED000EEB6E4 /* SignInVC.swift */; };
 		D08331EF29D83ED000EEB6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08331ED29D83ED000EEB6E4 /* Main.storyboard */; };
 		D08331F129D83ED800EEB6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08331F029D83ED800EEB6E4 /* Assets.xcassets */; };
 		D08331F429D83ED800EEB6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08331F229D83ED800EEB6E4 /* LaunchScreen.storyboard */; };
+		D08331FE29D8433000EEB6E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.release.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.release.xcconfig"; sourceTree = "<group>"; };
+		A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitKal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.debug.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.debug.xcconfig"; sourceTree = "<group>"; };
 		D08331E429D83ED000EEB6E4 /* FitKal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitKal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08331E729D83ED000EEB6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D08331EB29D83ED000EEB6E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D08331EB29D83ED000EEB6E4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D08331EE29D83ED000EEB6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D08331F029D83ED800EEB6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08331F329D83ED800EEB6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08331F529D83ED800EEB6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673B8C1DCB2C6FAE9A6942EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */,
+				42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90935565A6A8B666067AA704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D08331DB29D83ED000EEB6E4 = {
 			isa = PBXGroup;
 			children = (
 				D08331E629D83ED000EEB6E4 /* FitKal */,
 				D08331E529D83ED000EEB6E4 /* Products */,
+				673B8C1DCB2C6FAE9A6942EB /* Pods */,
+				90935565A6A8B666067AA704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,32 @@
 		D08331E629D83ED000EEB6E4 /* FitKal */ = {
 			isa = PBXGroup;
 			children = (
-				D08331E729D83ED000EEB6E4 /* AppDelegate.swift */,
-				D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */,
-				D08331EB29D83ED000EEB6E4 /* ViewController.swift */,
+				D08331FF29D857B300EEB6E4 /* Delegates */,
+				D083320029D857D700EEB6E4 /* ViewControllers */,
 				D08331ED29D83ED000EEB6E4 /* Main.storyboard */,
 				D08331F029D83ED800EEB6E4 /* Assets.xcassets */,
 				D08331F229D83ED800EEB6E4 /* LaunchScreen.storyboard */,
 				D08331F529D83ED800EEB6E4 /* Info.plist */,
+				D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */,
 			);
 			path = FitKal;
+			sourceTree = "<group>";
+		};
+		D08331FF29D857B300EEB6E4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D08331E729D83ED000EEB6E4 /* AppDelegate.swift */,
+				D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D083320029D857D700EEB6E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D08331EB29D83ED000EEB6E4 /* SignInVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08331F829D83ED800EEB6E4 /* Build configuration list for PBXNativeTarget "FitKal" */;
 			buildPhases = (
+				259BAF2131BF0D4F6F1D8AF0 /* [CP] Check Pods Manifest.lock */,
 				D08331E029D83ED000EEB6E4 /* Sources */,
 				D08331E129D83ED000EEB6E4 /* Frameworks */,
 				D08331E229D83ED000EEB6E4 /* Resources */,
+				70D31502E5116C862A5AD60A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08331F429D83ED800EEB6E4 /* LaunchScreen.storyboard in Resources */,
+				D08331FE29D8433000EEB6E4 /* GoogleService-Info.plist in Resources */,
 				D08331F129D83ED800EEB6E4 /* Assets.xcassets in Resources */,
 				D08331EF29D83ED000EEB6E4 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +179,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		259BAF2131BF0D4F6F1D8AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitKal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D31502E5116C862A5AD60A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitKal/Pods-FitKal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitKal/Pods-FitKal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitKal/Pods-FitKal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D08331E029D83ED000EEB6E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08331EC29D83ED000EEB6E4 /* ViewController.swift in Sources */,
+				D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */,
 				D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */,
 				D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +370,7 @@
 		};
 		D08331F929D83ED800EEB6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +398,7 @@
 		};
 		D08331FA29D83ED800EEB6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
