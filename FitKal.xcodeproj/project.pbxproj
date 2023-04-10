@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */; };
+		D07F1D0D29DAF64100C10A4E /* WorkOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */; };
+		D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0F29DAF96700C10A4E /* DietVC.swift */; };
 		D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E729D83ED000EEB6E4 /* AppDelegate.swift */; };
 		D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */; };
 		D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331EB29D83ED000EEB6E4 /* SignInVC.swift */; };
@@ -15,12 +17,20 @@
 		D08331F129D83ED800EEB6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08331F029D83ED800EEB6E4 /* Assets.xcassets */; };
 		D08331F429D83ED800EEB6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08331F229D83ED800EEB6E4 /* LaunchScreen.storyboard */; };
 		D08331FE29D8433000EEB6E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */; };
+		D0B556B329D9AD9100953BC9 /* continueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B556B229D9AD9100953BC9 /* continueVC.swift */; };
+		D0F0A76429D870FC009AFD4C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76329D870FC009AFD4C /* SignUpVC.swift */; };
+		D0F0A76729D88165009AFD4C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76629D88165009AFD4C /* Utilities.swift */; };
+		D0F0A76C29D99F73009AFD4C /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76B29D99F73009AFD4C /* ProfilVC.swift */; };
+		D0F0A76F29D9A0ED009AFD4C /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76E29D9A0ED009AFD4C /* Methods.swift */; };
+		D0F0A77129D9A106009AFD4C /* İmagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A77029D9A105009AFD4C /* İmagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.release.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.release.xcconfig"; sourceTree = "<group>"; };
 		A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitKal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.debug.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.debug.xcconfig"; sourceTree = "<group>"; };
+		D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutVC.swift; sourceTree = "<group>"; };
+		D07F1D0F29DAF96700C10A4E /* DietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietVC.swift; sourceTree = "<group>"; };
 		D08331E429D83ED000EEB6E4 /* FitKal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitKal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08331E729D83ED000EEB6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +40,12 @@
 		D08331F329D83ED800EEB6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08331F529D83ED800EEB6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0B556B229D9AD9100953BC9 /* continueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continueVC.swift; sourceTree = "<group>"; };
+		D0F0A76329D870FC009AFD4C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		D0F0A76629D88165009AFD4C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D0F0A76B29D99F73009AFD4C /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		D0F0A76E29D9A0ED009AFD4C /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		D0F0A77029D9A105009AFD4C /* İmagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "İmagePicker.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D07F1D0B29DAF61E00C10A4E /* WorkoutScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */,
+			);
+			path = WorkoutScreen;
+			sourceTree = "<group>";
+		};
+		D07F1D0E29DAF95000C10A4E /* DietScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D07F1D0F29DAF96700C10A4E /* DietVC.swift */,
+			);
+			path = DietScreen;
+			sourceTree = "<group>";
+		};
 		D08331DB29D83ED000EEB6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +114,13 @@
 		D08331E629D83ED000EEB6E4 /* FitKal */ = {
 			isa = PBXGroup;
 			children = (
+				D07F1D0E29DAF95000C10A4E /* DietScreen */,
+				D07F1D0B29DAF61E00C10A4E /* WorkoutScreen */,
+				D0F0A76D29D9A0AF009AFD4C /* ExtensionProfilVC */,
+				D0F0A76829D99EFC009AFD4C /* ProfileScreen */,
+				D0F0A76529D8814F009AFD4C /* Utilities */,
 				D08331FF29D857B300EEB6E4 /* Delegates */,
-				D083320029D857D700EEB6E4 /* ViewControllers */,
+				D083320029D857D700EEB6E4 /* AuthScreen */,
 				D08331ED29D83ED000EEB6E4 /* Main.storyboard */,
 				D08331F029D83ED800EEB6E4 /* Assets.xcassets */,
 				D08331F229D83ED800EEB6E4 /* LaunchScreen.storyboard */,
@@ -102,12 +139,39 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		D083320029D857D700EEB6E4 /* ViewControllers */ = {
+		D083320029D857D700EEB6E4 /* AuthScreen */ = {
 			isa = PBXGroup;
 			children = (
 				D08331EB29D83ED000EEB6E4 /* SignInVC.swift */,
+				D0F0A76329D870FC009AFD4C /* SignUpVC.swift */,
+				D0B556B229D9AD9100953BC9 /* continueVC.swift */,
 			);
-			path = ViewControllers;
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		D0F0A76529D8814F009AFD4C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0F0A76629D88165009AFD4C /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D0F0A76829D99EFC009AFD4C /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D0F0A76B29D99F73009AFD4C /* ProfilVC.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		D0F0A76D29D9A0AF009AFD4C /* ExtensionProfilVC */ = {
+			isa = PBXGroup;
+			children = (
+				D0F0A76E29D9A0ED009AFD4C /* Methods.swift */,
+				D0F0A77029D9A105009AFD4C /* İmagePicker.swift */,
+			);
+			path = ExtensionProfilVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F0A76429D870FC009AFD4C /* SignUpVC.swift in Sources */,
+				D0B556B329D9AD9100953BC9 /* continueVC.swift in Sources */,
+				D0F0A76F29D9A0ED009AFD4C /* Methods.swift in Sources */,
 				D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */,
+				D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */,
 				D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */,
+				D0F0A76729D88165009AFD4C /* Utilities.swift in Sources */,
+				D0F0A77129D9A106009AFD4C /* İmagePicker.swift in Sources */,
+				D0F0A76C29D99F73009AFD4C /* ProfilVC.swift in Sources */,
+				D07F1D0D29DAF64100C10A4E /* WorkOutVC.swift in Sources */,
 				D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
