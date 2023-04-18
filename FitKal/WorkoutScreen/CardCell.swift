@@ -1,28 +1,24 @@
-//
-//  Cell.swift
-//  FitKal
-//
-//  Created by macbookair on 10.04.2023.
-//
+
 
 import UIKit
 
-class Cell: UITableViewCell {
+class CardCell: UITableViewCell
+{
+    
     
     @IBOutlet weak var cardView: UIView!
-    
-    @IBOutlet weak var backGroundImageView: UIImageView!
-    
-    @IBOutlet weak var workoutLabel: UILabel!
-    
-    @IBOutlet weak var totalWorkoutLabel: UILabel!
-    
-    
+    @IBOutlet weak var cardBackgroundImageView: UIImageView!
+ 
+    @IBOutlet weak var workoutNameLabel: UILabel!
+
+    @IBOutlet weak var totalWorkoutsLabel: UILabel!
+   
+    // Function for setting up the cell.
     func configure(image: UIImage,workoutName: String,totalWorkouts:Int)
     {
-        backGroundImageView.image = image
-        workoutLabel.text = workoutName
-        totalWorkoutLabel.text = "Total workouts: \(totalWorkouts)"
+        cardBackgroundImageView.image = image
+        workoutNameLabel.text = workoutName
+        totalWorkoutsLabel.text = "Total workouts: \(totalWorkouts)"
         makeRoundedCorners()
     }
     
@@ -42,7 +38,7 @@ class Cell: UITableViewCell {
         cardView.layer.borderWidth = 0.5 // Set a line along the border
         cardView.layer.borderColor = UIColor.gray.cgColor // Set the color of border line
         
-        backGroundImageView.layer.cornerRadius = 10.0 // Setting card image corner radius
+        cardBackgroundImageView.layer.cornerRadius = 10.0 // Setting card image corner radius
     }
-
+    
 }

@@ -24,9 +24,7 @@ class SignInVC: UIViewController {
         self.navigationController?.isNavigationBarHidden = false
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-       self.navigationController?.isNavigationBarHidden = false
-    }
+    
 
     
     func validateFields() -> String?

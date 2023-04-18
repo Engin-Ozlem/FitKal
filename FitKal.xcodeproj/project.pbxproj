@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */; };
-		D069BA0929E44436002623A3 /* WorkoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA0829E44436002623A3 /* WorkoutData.swift */; };
-		D069BA0D29E44B1F002623A3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA0C29E44B1F002623A3 /* Cell.swift */; };
+		D069BA0929E44436002623A3 /* WorkoutScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */; };
+		D069BA0D29E44B1F002623A3 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA0C29E44B1F002623A3 /* CardCell.swift */; };
 		D069BA1329E4565B002623A3 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1229E4565B002623A3 /* Exercise.swift */; };
 		D069BA1529E45670002623A3 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1429E45670002623A3 /* ExerciseList.swift */; };
-		D07F1D0D29DAF64100C10A4E /* WorkOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */; };
+		D069BA1929E58D75002623A3 /* ExerciseListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1829E58D75002623A3 /* ExerciseListData.swift */; };
+		D069BA1B29E58FF3002623A3 /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1A29E58FF3002623A3 /* ExerciseData.swift */; };
+		D069BA1E29E596EF002623A3 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1D29E596EF002623A3 /* ExerciseListViewController.swift */; };
+		D069BA2029E5971B002623A3 /* ExerciseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA1F29E5971B002623A3 /* ExerciseListCell.swift */; };
+		D069BA2229E5AF03002623A3 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA2129E5AF03002623A3 /* GifViewController.swift */; };
+		D069BA2529E5AF79002623A3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D069BA2429E5AF79002623A3 /* Kingfisher */; };
+		D0773C2729EEBBD400580806 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2629EEBBD400580806 /* CircularProgressView.swift */; };
+		D0773C2B29EEE65700580806 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2A29EEE65700580806 /* FirstViewController.swift */; };
+		D07F1D0D29DAF64100C10A4E /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0C29DAF64100C10A4E /* WorkoutsViewController.swift */; };
 		D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0F29DAF96700C10A4E /* DietVC.swift */; };
 		D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E729D83ED000EEB6E4 /* AppDelegate.swift */; };
 		D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */; };
@@ -33,11 +41,18 @@
 		42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.release.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.release.xcconfig"; sourceTree = "<group>"; };
 		A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitKal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.debug.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.debug.xcconfig"; sourceTree = "<group>"; };
-		D069BA0829E44436002623A3 /* WorkoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutData.swift; sourceTree = "<group>"; };
-		D069BA0C29E44B1F002623A3 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreenConstants.swift; sourceTree = "<group>"; };
+		D069BA0C29E44B1F002623A3 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		D069BA1229E4565B002623A3 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		D069BA1429E45670002623A3 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
-		D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutVC.swift; sourceTree = "<group>"; };
+		D069BA1829E58D75002623A3 /* ExerciseListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListData.swift; sourceTree = "<group>"; };
+		D069BA1A29E58FF3002623A3 /* ExerciseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		D069BA1D29E596EF002623A3 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		D069BA1F29E5971B002623A3 /* ExerciseListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListCell.swift; sourceTree = "<group>"; };
+		D069BA2129E5AF03002623A3 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		D0773C2629EEBBD400580806 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		D0773C2A29EEE65700580806 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D07F1D0C29DAF64100C10A4E /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
 		D07F1D0F29DAF96700C10A4E /* DietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietVC.swift; sourceTree = "<group>"; };
 		D08331E429D83ED000EEB6E4 /* FitKal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitKal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08331E729D83ED000EEB6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D069BA2529E5AF79002623A3 /* Kingfisher in Frameworks */,
 				0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +104,8 @@
 		D069BA0729E442E8002623A3 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D069BA0829E44436002623A3 /* WorkoutData.swift */,
+				D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */,
+				D069BA1829E58D75002623A3 /* ExerciseListData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -110,11 +127,23 @@
 			path = WorkOutVc;
 			sourceTree = "<group>";
 		};
+		D069BA1C29E59659002623A3 /* ExerciseScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D069BA1D29E596EF002623A3 /* ExerciseListViewController.swift */,
+				D069BA1F29E5971B002623A3 /* ExerciseListCell.swift */,
+				D069BA2129E5AF03002623A3 /* GifViewController.swift */,
+				D0773C2629EEBBD400580806 /* CircularProgressView.swift */,
+			);
+			path = ExerciseScreen;
+			sourceTree = "<group>";
+		};
 		D07F1D0B29DAF61E00C10A4E /* WorkoutScreen */ = {
 			isa = PBXGroup;
 			children = (
-				D07F1D0C29DAF64100C10A4E /* WorkOutVC.swift */,
-				D069BA0C29E44B1F002623A3 /* Cell.swift */,
+				D07F1D0C29DAF64100C10A4E /* WorkoutsViewController.swift */,
+				D069BA0C29E44B1F002623A3 /* CardCell.swift */,
+				D0773C2A29EEE65700580806 /* FirstViewController.swift */,
 			);
 			path = WorkoutScreen;
 			sourceTree = "<group>";
@@ -148,6 +177,7 @@
 		D08331E629D83ED000EEB6E4 /* FitKal */ = {
 			isa = PBXGroup;
 			children = (
+				D069BA1C29E59659002623A3 /* ExerciseScreen */,
 				D069BA0E29E455AA002623A3 /* Modal */,
 				D069BA0729E442E8002623A3 /* Data */,
 				D07F1D0E29DAF95000C10A4E /* DietScreen */,
@@ -189,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				D0F0A76629D88165009AFD4C /* Utilities.swift */,
+				D069BA1A29E58FF3002623A3 /* ExerciseData.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -228,6 +259,9 @@
 			dependencies = (
 			);
 			name = FitKal;
+			packageProductDependencies = (
+				D069BA2429E5AF79002623A3 /* Kingfisher */,
+			);
 			productName = FitKal;
 			productReference = D08331E429D83ED000EEB6E4 /* FitKal.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +290,9 @@
 				Base,
 			);
 			mainGroup = D08331DB29D83ED000EEB6E4;
+			packageReferences = (
+				D069BA2329E5AF79002623A3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D08331E529D83ED000EEB6E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -331,16 +368,23 @@
 				D0F0A76F29D9A0ED009AFD4C /* Methods.swift in Sources */,
 				D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */,
 				D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */,
+				D069BA1B29E58FF3002623A3 /* ExerciseData.swift in Sources */,
+				D069BA1E29E596EF002623A3 /* ExerciseListViewController.swift in Sources */,
 				D069BA1329E4565B002623A3 /* Exercise.swift in Sources */,
-				D069BA0D29E44B1F002623A3 /* Cell.swift in Sources */,
-				D069BA0929E44436002623A3 /* WorkoutData.swift in Sources */,
+				D069BA0D29E44B1F002623A3 /* CardCell.swift in Sources */,
+				D069BA0929E44436002623A3 /* WorkoutScreenConstants.swift in Sources */,
+				D0773C2729EEBBD400580806 /* CircularProgressView.swift in Sources */,
 				D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */,
 				D0F0A76729D88165009AFD4C /* Utilities.swift in Sources */,
 				D0F0A77129D9A106009AFD4C /* İmagePicker.swift in Sources */,
 				D069BA1529E45670002623A3 /* ExerciseList.swift in Sources */,
+				D069BA2029E5971B002623A3 /* ExerciseListCell.swift in Sources */,
+				D069BA2229E5AF03002623A3 /* GifViewController.swift in Sources */,
 				D0F0A76C29D99F73009AFD4C /* ProfilVC.swift in Sources */,
-				D07F1D0D29DAF64100C10A4E /* WorkOutVC.swift in Sources */,
+				D07F1D0D29DAF64100C10A4E /* WorkoutsViewController.swift in Sources */,
 				D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */,
+				D069BA1929E58D75002623A3 /* ExerciseListData.swift in Sources */,
+				D0773C2B29EEE65700580806 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D069BA2329E5AF79002623A3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D069BA2429E5AF79002623A3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D069BA2329E5AF79002623A3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D08331DC29D83ED000EEB6E4 /* Project object */;
 }
