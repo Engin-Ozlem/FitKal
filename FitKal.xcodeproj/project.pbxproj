@@ -20,8 +20,21 @@
 		D069BA2529E5AF79002623A3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D069BA2429E5AF79002623A3 /* Kingfisher */; };
 		D0773C2729EEBBD400580806 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2629EEBBD400580806 /* CircularProgressView.swift */; };
 		D0773C2B29EEE65700580806 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2A29EEE65700580806 /* FirstViewController.swift */; };
+		D0773C2D29F1433900580806 /* DietPlanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2C29F1433900580806 /* DietPlanData.swift */; };
+		D0773C2F29F144EE00580806 /* DietPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C2E29F144EE00580806 /* DietPlan.swift */; };
+		D0773C3229F1488000580806 /* FoodCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3129F1488000580806 /* FoodCardModel.swift */; };
+		D0773C3529F1490400580806 /* PreparationDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3429F1490400580806 /* PreparationDescription.swift */; };
+		D0773C3729F14C2E00580806 /* FoodNutrientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3629F14C2E00580806 /* FoodNutrientsModel.swift */; };
+		D0773C3929F14C6B00580806 /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3829F14C6B00580806 /* IngredientModel.swift */; };
+		D0773C3B29F14CC200580806 /* RecipeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3A29F14CC200580806 /* RecipeDescription.swift */; };
+		D0773C3F29F14E5F00580806 /* IngredientsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C3E29F14E5F00580806 /* IngredientsCollectionViewCell.swift */; };
+		D0773C4129F14E9400580806 /* FoodNutrientsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C4029F14E9400580806 /* FoodNutrientsCollectionViewCell.swift */; };
+		D0773C4329F14EE300580806 /* PreparationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C4229F14EE300580806 /* PreparationCollectionViewCell.swift */; };
+		D0773C4929F1500800580806 /* DietPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C4829F1500800580806 /* DietPlanViewController.swift */; };
+		D0773C4B29F1503100580806 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C4A29F1503100580806 /* HeaderCollectionReusableView.swift */; };
+		D0773C4E29F1507D00580806 /* FoodCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0773C4D29F1507D00580806 /* FoodCardCollectionViewCell.swift */; };
 		D07F1D0D29DAF64100C10A4E /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0C29DAF64100C10A4E /* WorkoutsViewController.swift */; };
-		D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0F29DAF96700C10A4E /* DietVC.swift */; };
+		D07F1D1029DAF96700C10A4E /* NutrientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F1D0F29DAF96700C10A4E /* NutrientsViewController.swift */; };
 		D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E729D83ED000EEB6E4 /* AppDelegate.swift */; };
 		D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */; };
 		D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08331EB29D83ED000EEB6E4 /* SignInVC.swift */; };
@@ -52,8 +65,21 @@
 		D069BA2129E5AF03002623A3 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		D0773C2629EEBBD400580806 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		D0773C2A29EEE65700580806 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D0773C2C29F1433900580806 /* DietPlanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanData.swift; sourceTree = "<group>"; };
+		D0773C2E29F144EE00580806 /* DietPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlan.swift; sourceTree = "<group>"; };
+		D0773C3129F1488000580806 /* FoodCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardModel.swift; sourceTree = "<group>"; };
+		D0773C3429F1490400580806 /* PreparationDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationDescription.swift; sourceTree = "<group>"; };
+		D0773C3629F14C2E00580806 /* FoodNutrientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNutrientsModel.swift; sourceTree = "<group>"; };
+		D0773C3829F14C6B00580806 /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
+		D0773C3A29F14CC200580806 /* RecipeDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDescription.swift; sourceTree = "<group>"; };
+		D0773C3E29F14E5F00580806 /* IngredientsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0773C4029F14E9400580806 /* FoodNutrientsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNutrientsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0773C4229F14EE300580806 /* PreparationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparationCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0773C4829F1500800580806 /* DietPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanViewController.swift; sourceTree = "<group>"; };
+		D0773C4A29F1503100580806 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		D0773C4D29F1507D00580806 /* FoodCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardCollectionViewCell.swift; sourceTree = "<group>"; };
 		D07F1D0C29DAF64100C10A4E /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
-		D07F1D0F29DAF96700C10A4E /* DietVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietVC.swift; sourceTree = "<group>"; };
+		D07F1D0F29DAF96700C10A4E /* NutrientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsViewController.swift; sourceTree = "<group>"; };
 		D08331E429D83ED000EEB6E4 /* FitKal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitKal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08331E729D83ED000EEB6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08331E929D83ED000EEB6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +132,7 @@
 			children = (
 				D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */,
 				D069BA1829E58D75002623A3 /* ExerciseListData.swift */,
+				D0773C2C29F1433900580806 /* DietPlanData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -113,7 +140,10 @@
 		D069BA0E29E455AA002623A3 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				D0773C3329F148D800580806 /* FoodNutritionViewController */,
+				D0773C3029F1484A00580806 /* DietPlanViewController */,
 				D069BA1129E45629002623A3 /* WorkOutVc */,
+				D0773C3A29F14CC200580806 /* RecipeDescription.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -138,6 +168,69 @@
 			path = ExerciseScreen;
 			sourceTree = "<group>";
 		};
+		D0773C3029F1484A00580806 /* DietPlanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C3129F1488000580806 /* FoodCardModel.swift */,
+			);
+			path = DietPlanViewController;
+			sourceTree = "<group>";
+		};
+		D0773C3329F148D800580806 /* FoodNutritionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C3429F1490400580806 /* PreparationDescription.swift */,
+				D0773C3629F14C2E00580806 /* FoodNutrientsModel.swift */,
+				D0773C3829F14C6B00580806 /* IngredientModel.swift */,
+			);
+			path = FoodNutritionViewController;
+			sourceTree = "<group>";
+		};
+		D0773C3C29F14D5F00580806 /* FoodNutritionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D07F1D0F29DAF96700C10A4E /* NutrientsViewController.swift */,
+				D0773C3D29F14E0B00580806 /* CollectionCell */,
+			);
+			path = FoodNutritionViewController;
+			sourceTree = "<group>";
+		};
+		D0773C3D29F14E0B00580806 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C3E29F14E5F00580806 /* IngredientsCollectionViewCell.swift */,
+				D0773C4029F14E9400580806 /* FoodNutrientsCollectionViewCell.swift */,
+				D0773C4229F14EE300580806 /* PreparationCollectionViewCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		D0773C4629F14FB200580806 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C4729F14FB900580806 /* DietPlanViewController */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		D0773C4729F14FB900580806 /* DietPlanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C4829F1500800580806 /* DietPlanViewController.swift */,
+				D0773C4A29F1503100580806 /* HeaderCollectionReusableView.swift */,
+				D0773C4C29F1505100580806 /* Cell */,
+			);
+			path = DietPlanViewController;
+			sourceTree = "<group>";
+		};
+		D0773C4C29F1505100580806 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0773C4D29F1507D00580806 /* FoodCardCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		D07F1D0B29DAF61E00C10A4E /* WorkoutScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +244,8 @@
 		D07F1D0E29DAF95000C10A4E /* DietScreen */ = {
 			isa = PBXGroup;
 			children = (
-				D07F1D0F29DAF96700C10A4E /* DietVC.swift */,
+				D0773C4629F14FB200580806 /* Layout */,
+				D0773C3C29F14D5F00580806 /* FoodNutritionViewController */,
 			);
 			path = DietScreen;
 			sourceTree = "<group>";
@@ -220,6 +314,7 @@
 			children = (
 				D0F0A76629D88165009AFD4C /* Utilities.swift */,
 				D069BA1A29E58FF3002623A3 /* ExerciseData.swift */,
+				D0773C2E29F144EE00580806 /* DietPlan.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -363,26 +458,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0773C3B29F14CC200580806 /* RecipeDescription.swift in Sources */,
+				D0773C3729F14C2E00580806 /* FoodNutrientsModel.swift in Sources */,
 				D0F0A76429D870FC009AFD4C /* SignUpVC.swift in Sources */,
 				D0B556B329D9AD9100953BC9 /* continueVC.swift in Sources */,
 				D0F0A76F29D9A0ED009AFD4C /* Methods.swift in Sources */,
 				D08331EC29D83ED000EEB6E4 /* SignInVC.swift in Sources */,
-				D07F1D1029DAF96700C10A4E /* DietVC.swift in Sources */,
+				D07F1D1029DAF96700C10A4E /* NutrientsViewController.swift in Sources */,
 				D069BA1B29E58FF3002623A3 /* ExerciseData.swift in Sources */,
+				D0773C4929F1500800580806 /* DietPlanViewController.swift in Sources */,
 				D069BA1E29E596EF002623A3 /* ExerciseListViewController.swift in Sources */,
+				D0773C2D29F1433900580806 /* DietPlanData.swift in Sources */,
 				D069BA1329E4565B002623A3 /* Exercise.swift in Sources */,
 				D069BA0D29E44B1F002623A3 /* CardCell.swift in Sources */,
+				D0773C3529F1490400580806 /* PreparationDescription.swift in Sources */,
+				D0773C2F29F144EE00580806 /* DietPlan.swift in Sources */,
 				D069BA0929E44436002623A3 /* WorkoutScreenConstants.swift in Sources */,
+				D0773C4E29F1507D00580806 /* FoodCardCollectionViewCell.swift in Sources */,
+				D0773C3929F14C6B00580806 /* IngredientModel.swift in Sources */,
+				D0773C4129F14E9400580806 /* FoodNutrientsCollectionViewCell.swift in Sources */,
 				D0773C2729EEBBD400580806 /* CircularProgressView.swift in Sources */,
 				D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */,
 				D0F0A76729D88165009AFD4C /* Utilities.swift in Sources */,
 				D0F0A77129D9A106009AFD4C /* İmagePicker.swift in Sources */,
 				D069BA1529E45670002623A3 /* ExerciseList.swift in Sources */,
 				D069BA2029E5971B002623A3 /* ExerciseListCell.swift in Sources */,
+				D0773C3229F1488000580806 /* FoodCardModel.swift in Sources */,
 				D069BA2229E5AF03002623A3 /* GifViewController.swift in Sources */,
 				D0F0A76C29D99F73009AFD4C /* ProfilVC.swift in Sources */,
+				D0773C4329F14EE300580806 /* PreparationCollectionViewCell.swift in Sources */,
 				D07F1D0D29DAF64100C10A4E /* WorkoutsViewController.swift in Sources */,
 				D08331EA29D83ED000EEB6E4 /* SceneDelegate.swift in Sources */,
+				D0773C4B29F1503100580806 /* HeaderCollectionReusableView.swift in Sources */,
+				D0773C3F29F14E5F00580806 /* IngredientsCollectionViewCell.swift in Sources */,
 				D069BA1929E58D75002623A3 /* ExerciseListData.swift in Sources */,
 				D0773C2B29EEE65700580806 /* FirstViewController.swift in Sources */,
 			);
