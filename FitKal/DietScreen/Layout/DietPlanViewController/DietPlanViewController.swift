@@ -20,6 +20,7 @@ class DietPlanViewController: UIViewController
     
     override func viewDidLoad()
     {
+        self.navigationController?.isNavigationBarHidden = false
         configureCollectionView()
         
         // Fetch data from API.
@@ -162,7 +163,7 @@ extension DietPlanViewController: UICollectionViewDelegate, UICollectionViewData
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FoodCardCollectionViewCell.identifier, for: indexPath) as! FoodCardCollectionViewCell
         
         // Storyboard Instance
-        let DietPlanstoryboard = UIStoryboard(name: "Diet Plan Screen", bundle: nil)
+        let DietPlanstoryboard = UIStoryboard(name: "Main", bundle: nil)
         
         // Instance of NutrientsViewController
         let vc = DietPlanstoryboard.instantiateViewController(withIdentifier: NutrientsViewController.storyboardID) as! NutrientsViewController
