@@ -41,6 +41,17 @@ class ExerciseListViewController: UIViewController
     
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        title = viewControllerTitle
+        configureCard(image: self.image,workoutName: self.workoutName, totalWorkouts: self.totalWorkouts)
+        
+        // Data from API Call
+        //fetchExerciseList()
+        
+        // Mock Data
+        mockExerciseListData(bodyPart: bodyPart)
+    }
+    
     private func fetchExerciseList()
     {
         // Get exercises with bodypart

@@ -41,4 +41,5 @@ class CardCell: UITableViewCell
         cardBackgroundImageView.layer.cornerRadius = 10.0 // Setting card image corner radius
     }
     
+    
 }

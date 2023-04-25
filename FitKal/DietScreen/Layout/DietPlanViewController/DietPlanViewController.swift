@@ -21,6 +21,9 @@ class DietPlanViewController: UIViewController
     override func viewDidLoad()
     {
         self.navigationController?.isNavigationBarHidden = false
+        //self.navigationItem.hidesBackButton = true
+        self.tabBarController?.navigationItem.hidesBackButton = true
+        
         configureCollectionView()
         
         // Fetch data from API.
@@ -31,6 +34,10 @@ class DietPlanViewController: UIViewController
         print(foodCardViewData[1].cardImage.count)
         print(foodCardViewData[2].cardImage.count)
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
     }
     
     /// Function for assigning foodCardViewData with mock data.

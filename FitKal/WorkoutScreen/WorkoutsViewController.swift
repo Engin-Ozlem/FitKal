@@ -10,6 +10,8 @@ class WorkoutsViewController: UIViewController
     {
         super.viewDidLoad()
         
+        
+        
     }
 }
     
@@ -23,6 +25,7 @@ extension WorkoutsViewController: UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return WorkoutScreenConstants.cardImages.count // Return total numbers of images
+        
     }
     
     // Returns what cell are being used
@@ -61,6 +64,10 @@ extension WorkoutsViewController: UITableViewDelegate,UITableViewDataSource
         // To navigate from WorkoutsVC to ExerciseListVC
         print("api başarılı")
         self.navigationController?.pushViewController( vc!, animated: true)
+        
     }
+    
+    
+    
 }
 
