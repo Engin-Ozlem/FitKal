@@ -81,6 +81,10 @@ class SignUpVC: UIViewController {
             let userEmail = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
+            
+            
+            
+            
             // Create the user
             Auth.auth().createUser(withEmail: userEmail, password: password) { result, err in
                 
@@ -89,11 +93,9 @@ class SignUpVC: UIViewController {
                 {
                     self.alert(titleInput: "Error!", messageInput: error!)
                 }
-                
                 else
                 {
             
-                    // User created successfully, now store user data.
                     Firestore.firestore().collection("users").addDocument(data: ["username":userName ,"userEmail":userEmail,"uid":result!.user.uid,"profileImageURL":""]) { error in
                         
                         if error != nil
@@ -103,8 +105,27 @@ class SignUpVC: UIViewController {
                         }
                     }
                     
-                    // Transition user to tab bar controller.
-                    self.performSegue(withIdentifier: "toWorkOutVC", sender: nil)
+                    guard let user = result?.user else {
+                                return
+                            }
+
+                    
+                    user.sendEmailVerification { (error) in
+                                if let error = error {
+                                    print("Error sending verification email: \(error.localizedDescription)")
+                                    return
+                                }
+                                
+                        let alert = UIAlertController(title: "Warning", message: "Verification email sent to \(userEmail)", preferredStyle: UIAlertController.Style.alert)
+                        let OkeyButton = UIAlertAction(title: "Okey", style: UIAlertAction.Style.default) { UIAlertAction in
+                            self.performSegue(withIdentifier: "toVerification", sender: nil)
+                        }
+                        alert.addAction(OkeyButton)
+                        self.present(alert, animated: true, completion: nil)
+                            }
+                    
+                    
+                    //self.performSegue(withIdentifier: "toWorkOutVC", sender: nil)
                     
                 }
             }
@@ -123,6 +144,12 @@ class SignUpVC: UIViewController {
         
         alert.addAction(okButton)
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showError(_ message: String)
+    {
+        errorLabel.text = message
+        errorLabel.alpha = 1
     }
 }
 

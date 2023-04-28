@@ -322,6 +322,7 @@
                         <outlet property="fullNameTextField" destination="mvZ-DY-5dT" id="EDH-HJ-bIW"/>
                         <outlet property="passwordTextField" destination="0ae-x1-m6v" id="klb-ZF-bWs"/>
                         <segue destination="jWF-yg-VcJ" kind="show" identifier="toWorkOutVC" id="xh1-A2-F2x"/>
+                        <segue destination="50j-BR-DgB" kind="show" identifier="toVerification" id="Wqw-EQ-R7E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAP-nM-27p" sceneMemberID="firstResponder"/>
@@ -1745,8 +1746,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="GjR-u4-geg"/>
-        <segue reference="xh1-A2-F2x"/>
+        <segue reference="WWE-yh-TfM"/>
         <segue reference="8au-Vm-bXJ"/>
+        <segue reference="Wqw-EQ-R7E"/>
         <segue reference="sud-yp-R9d"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="tintColor"/>

@@ -68,7 +68,16 @@ class SignInVC: UIViewController {
                 // Successfully signed in user
                 else
                 {
-                    self.performSegue(withIdentifier: "toWorkOutVC", sender: nil)
+                    if let user = Auth.auth().currentUser {
+                        if user.isEmailVerified {
+                            self.performSegue(withIdentifier: "toWorkOutVC", sender: nil)
+                            print("User's email is verified.")
+                        } else {
+                            
+                            print("User's email is not verified.")
+                        }
+                    }
+                    
                 }
                 
             }
