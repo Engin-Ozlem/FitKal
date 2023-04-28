@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0106BA20B7BB8643AF4C2A7F /* Pods_FitKal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */; };
+		D026026329FA7E880021E6A5 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026026229FA7E880021E6A5 /* CalculatorViewController.swift */; };
 		D05065F829F6DD8000F8ED6C /* ArmWrestlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05065F729F6DD8000F8ED6C /* ArmWrestlingViewController.swift */; };
 		D05065FC29F6EC2B00F8ED6C /* ArmWrestlingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05065FB29F6EC2B00F8ED6C /* ArmWrestlingData.swift */; };
 		D069BA0929E44436002623A3 /* WorkoutScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */; };
@@ -44,6 +45,7 @@
 		D08331F129D83ED800EEB6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08331F029D83ED800EEB6E4 /* Assets.xcassets */; };
 		D08331F429D83ED800EEB6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08331F229D83ED800EEB6E4 /* LaunchScreen.storyboard */; };
 		D08331FE29D8433000EEB6E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */; };
+		D094802529FABC2400CA4EBD /* BodyFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094802429FABC2400CA4EBD /* BodyFatViewController.swift */; };
 		D0B556B329D9AD9100953BC9 /* continueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B556B229D9AD9100953BC9 /* continueVC.swift */; };
 		D0F0A76429D870FC009AFD4C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76329D870FC009AFD4C /* SignUpVC.swift */; };
 		D0F0A76729D88165009AFD4C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0A76629D88165009AFD4C /* Utilities.swift */; };
@@ -56,6 +58,7 @@
 		42192B0E89729540590D28E2 /* Pods-FitKal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.release.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.release.xcconfig"; sourceTree = "<group>"; };
 		A56B811EAAEA3F1686F91537 /* Pods_FitKal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitKal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5823EBB5F50467BF26778 /* Pods-FitKal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKal.debug.xcconfig"; path = "Target Support Files/Pods-FitKal/Pods-FitKal.debug.xcconfig"; sourceTree = "<group>"; };
+		D026026229FA7E880021E6A5 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		D05065F729F6DD8000F8ED6C /* ArmWrestlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmWrestlingViewController.swift; sourceTree = "<group>"; };
 		D05065FB29F6EC2B00F8ED6C /* ArmWrestlingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmWrestlingData.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D069BA0829E44436002623A3 /* WorkoutScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreenConstants.swift; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		D08331F329D83ED800EEB6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08331F529D83ED800EEB6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D08331FD29D8433000EEB6E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D094802429FABC2400CA4EBD /* BodyFatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatViewController.swift; sourceTree = "<group>"; };
 		D0B556B229D9AD9100953BC9 /* continueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = continueVC.swift; sourceTree = "<group>"; };
 		D0F0A76329D870FC009AFD4C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		D0F0A76629D88165009AFD4C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -131,19 +135,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D026026129FA7E3C0021E6A5 /* CalculatorScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D026026229FA7E880021E6A5 /* CalculatorViewController.swift */,
+				D094802429FABC2400CA4EBD /* BodyFatViewController.swift */,
+			);
+			path = CalculatorScreen;
+			sourceTree = "<group>";
+		};
 		D05065F629F6DD6900F8ED6C /* ArmWrestlingScreen */ = {
 			isa = PBXGroup;
 			children = (
 				D05065F729F6DD8000F8ED6C /* ArmWrestlingViewController.swift */,
 			);
 			path = ArmWrestlingScreen;
-			sourceTree = "<group>";
-		};
-		D05065FD29F7CDFD00F8ED6C /* ArmWrestlingViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ArmWrestlingViewController;
 			sourceTree = "<group>";
 		};
 		D069BA0729E442E8002623A3 /* Data */ = {
@@ -160,7 +166,6 @@
 		D069BA0E29E455AA002623A3 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				D05065FD29F7CDFD00F8ED6C /* ArmWrestlingViewController */,
 				D0773C3329F148D800580806 /* FoodNutritionViewController */,
 				D0773C3029F1484A00580806 /* DietPlanViewController */,
 				D069BA1129E45629002623A3 /* WorkOutVc */,
@@ -292,6 +297,7 @@
 		D08331E629D83ED000EEB6E4 /* FitKal */ = {
 			isa = PBXGroup;
 			children = (
+				D026026129FA7E3C0021E6A5 /* CalculatorScreen */,
 				D05065F629F6DD6900F8ED6C /* ArmWrestlingScreen */,
 				D069BA1C29E59659002623A3 /* ExerciseScreen */,
 				D069BA0E29E455AA002623A3 /* Modal */,
@@ -490,6 +496,7 @@
 				D069BA1B29E58FF3002623A3 /* ExerciseData.swift in Sources */,
 				D05065FC29F6EC2B00F8ED6C /* ArmWrestlingData.swift in Sources */,
 				D0773C4929F1500800580806 /* DietPlanViewController.swift in Sources */,
+				D026026329FA7E880021E6A5 /* CalculatorViewController.swift in Sources */,
 				D069BA1E29E596EF002623A3 /* ExerciseListViewController.swift in Sources */,
 				D0773C2D29F1433900580806 /* DietPlanData.swift in Sources */,
 				D05065F829F6DD8000F8ED6C /* ArmWrestlingViewController.swift in Sources */,
@@ -500,6 +507,7 @@
 				D069BA0929E44436002623A3 /* WorkoutScreenConstants.swift in Sources */,
 				D0773C4E29F1507D00580806 /* FoodCardCollectionViewCell.swift in Sources */,
 				D0773C3929F14C6B00580806 /* IngredientModel.swift in Sources */,
+				D094802529FABC2400CA4EBD /* BodyFatViewController.swift in Sources */,
 				D0773C4129F14E9400580806 /* FoodNutrientsCollectionViewCell.swift in Sources */,
 				D0773C2729EEBBD400580806 /* CircularProgressView.swift in Sources */,
 				D08331E829D83ED000EEB6E4 /* AppDelegate.swift in Sources */,

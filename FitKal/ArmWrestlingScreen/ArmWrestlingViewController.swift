@@ -35,7 +35,7 @@ class ArmWrestlingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.isNavigationBarHidden = true
         self.tabBarController?.navigationItem.hidesBackButton = true
         
         

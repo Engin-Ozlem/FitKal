@@ -18,11 +18,13 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
 
         self.navigationController?.isNavigationBarHidden = true
+        self.tabBarController?.navigationItem.hidesBackButton = true
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = true
+        self.tabBarController?.navigationItem.hidesBackButton = true
     }
 
     
