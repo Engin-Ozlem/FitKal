@@ -10,6 +10,7 @@ pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
 pod 'FirebaseStorage'
 pod 'youtube-ios-player-helper'
+pod 'RealmSwift'
 
   # Pods for FitKal
 
