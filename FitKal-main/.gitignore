@@ -1,0 +1,6 @@
+# Realm Pods
+Pods/Realm
+
+# Realm Files
+*.realm
+*.realm.lock

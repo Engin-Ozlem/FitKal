@@ -1,0 +1,6 @@
+framework module Pods_FitKal {
+  umbrella header "Pods-FitKal-umbrella.h"
+
+  export *
+  module * { export * }
+}
